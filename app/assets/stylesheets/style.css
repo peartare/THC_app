@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/* CSS Document THC Index & Main */
+
+Body {
+		background-color: rgb(5,72, 11);
+		background-image: url(images/gradient.jpg);
+		background-repeat: repeat-x;
+		
+		}
+#head	{
+	background-color: rgb(5,72, 11);
+	Height: inherit;
+	width: 100%;
+	}
+
+#harvest	{
+	background: url(images/harvest.png) no-repeat;
+	bottom: 0px;
+	height: 40%;
+	width: 100%;
+	position: fixed;
+	background-size: contain;
+	margin-left: 0px;
+	margin-right: 0px;
+	overflow: visible;
+	margin-bottom: 0px;	
+	z-index:1;
+	
+	}
+
+#LLC	{
+	position: absolute;
+	top: 5px;
+	left: 45%;
+	whitespace: nowrap;
+	z-index: 10;
+	
+}
+
+#owner	{
+	position: absolute;
+	top: 35px;
+	left: 49%;
+	z-index: 10;
+}
+
+#owner a:link	{
+	color:rgb(0,0,0);
+	text-decoration: none;
+	letter-spacing:.9;
+}
+	
+#owner a:visited	{
+	color:rgb(0,0,0);
+	text-decoration: none;
+	letter-spacing:.9;
+}
+
+#owner a:hover	{
+	color: rgb(254, 229, 128); /* the color of squash*/
+	font-weight: bolder;
+	letter-spacing: 1;
+	
+}
+
+#logo1	{
+	position: absolute;
+	top: 5px;
+	left:40px;
+}
+
+#logo2	{
+	position: absolute;
+	top: 20px;
+	left:54px;
+}
+
+#logo3	{
+	position: absolute;
+	top: 35px;
+	left:74px;
+}
+	
+span	{
+	font-style: italic;
+}
+
+#portfolio	{
+	Position: absolute;
+	top: 110px;
+	left: 40px;
+	width: 570px;
+	height: 250px;
+	background: rgba(4, 193, 133, .25); /*light green transparent*/
+	text-align: center;
+	z-index: 3;
+	color:white;
+	text-shadow:#000
+	
+}
+
+#portfolio ul	{
+	list-style:none inside;
+	margin: 0 0 0 0;
+}
+
+#portfolio ul li	{
+	width:138px;
+	height:138px;
+	float: left;
+	margin: -10px 0px 0px 18px;
+	padding:18px 0 0 0;
+	background: rgba(4, 193, 133, .5);
+	text-align: center;
+	
+}
+
+#portfolio ul li a	{
+	float: right;
+	width:102px;
+	height:102px;
+	margin: 0 18px 18px 0;
+	/*color:white;
+	text-shadow:#000*/
+	
+}
+
+#portfolio ul li a img	{
+	border:0;
+	max-height:100px;
+	max-width:100px;
+}
+
+#portfolio p {
+	Position: absolute;
+	bottom: 0;
+	left: 10px;	
+}
+
+#portfolio a{
+	color:white;
+	text-shadow:#000;
+}
+
+#portfolio ul a:hover	{
+	font-weight: bold;
+	-webkit-transform:scale(1.25); /* Safari and Chrome ZOOM interaction*/
+    -moz-transform:scale(1.25); /* Firefox ZOOM interaction */
+    -ms-transform:scale(1.25); /* IE 9 ZOOM interaction */
+    -o-transform:scale(1.25); /* Opera ZOOM interaction */
+    transform:scale(1.25);
+}
+
+#blurb	{
+	Height: auto;
+	top:110px;
+	left:630;
+	/*Margin-left: 0px;*/
+	position: relative;
+	background-color: rgba(4, 193, 133, .25);
+	float: right;
+	Padding-right: 20px;
+	padding-left: 10px;
+	color:white;
+	text-shadow:#000;
+	height: 250px;
+	line-height: 2em;
+}
+
+#hr	{   /* Styles the horizontal rule*/
+	color:white;
+	background-color: white;
+	height:3px;
+	margin:0;
+	padding: 0;
+	width:100%;
+	alignment-adjust:central;
+	
+	}
+
+#blurb > h3 {
+	text-align:center;
+	margin-bottom:0;
+	padding:0;
+}
+
+#blurb > h1	{
+	line-height: 10px;
+}
+
+#home	{
+	position: fixed;
+	bottom:5px;
+	right:30px;
+	z-index:10;
+}
+
+#home a:link	{
+	color: rgb(254, 229, 128); /* the color of squash*/
+}
+#home a:visited	{
+	color: rgb(254, 229, 128); /* the color of squash*/
+}
+#home a:hover	{
+	color: rgb(254, 229, 128); /* the color of squash*/
+	font-weight: bold;
+	letter-spacing: .9;
+}
+
